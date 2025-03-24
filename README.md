@@ -102,7 +102,7 @@ Contributions are welcome!
 ## 📧 **Contact**
 - **Author:** Pushpraj Patel  
 - **GitHub:** [xPushpraj](https://github.com/xPushpraj)  
-- **Website:** [Farm Frontiers](https://farmfrontiers.netlify.app)  
+- **Website:** [Farm Frontiers](https://farmfrontier.netlify.app)  
 
 ---
 
