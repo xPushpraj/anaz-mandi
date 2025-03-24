@@ -1,7 +1,3 @@
-### ✅ **`README.md` for Your GitHub Repository**
-
----
-
 # 🌾 **ANAZ Mandi - FARM QR Website**
 A web-based platform designed for farmers to **track and access crop details** using **QR codes**. This website aims to provide real-time information about crop varieties, market rates, and sale bodies, making it easier for farmers to manage their produce efficiently.
 
