@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>How It Works - Kisan Wheat Scanner</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Kisan Wheat Scanner</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="how.html" class="active">How It Works</a></li>
+      </ul>
+      <div class="burger">
+        <div></div><div></div><div></div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="how-section">
+    <h1>How It Works</h1>
+    <p>📸 The QR scanner uses your device's camera to detect and read QR codes in real-time. Simply place the code in front of your camera — no apps or downloads required. The scanner instantly decodes and displays the crop's full details!</p>
+  </section>
+
+  <!-- 🔹 Footer -->
+  <footer class="custom-footer">
+    <p>© 2025 developed by 
+      <a href="https://www.instagram.com/xpushpraj" target="_blank" class="footer-link">XPUSHPZ❤️</a> 
+      | All rights reserved
+    </p>
+  </footer>
+
+  <script>
+    const burger = document.querySelector(".burger");
+    const navLinks = document.querySelector(".nav-links");
+  
+    burger.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+  </script>
+
+  
+</body>
+
+</html>

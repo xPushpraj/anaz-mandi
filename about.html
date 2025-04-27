@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | Kisan Wheat Scanner</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/qr_wheat.jpg">
+  <!-- FontAwesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Kisan Wheat Scanner</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="how.html">How It Works</a></li>
+      </ul>
+      <div class="burger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Introduction -->
+  <section class="about-section">
+    <h1>About Us</h1>
+    <p>
+      This QR code contains key information about the agricultural product,
+      such as the place of origin, crop variety, date of harvest, and the
+      sale body responsible for distribution. These details help ensure
+      transparency, traceability, and trust in the supply chain by allowing
+      consumers to know exactly where and when the product was grown and who
+      is selling it.
+    </p>
+<!-- Intro Image -->
+    <div class="intro-image-container">
+    <img src="assets\images\pau.png" alt="Kisan Wheat Scanner" class="intro-image">
+  </div>
+  
+  </section>
+
+  <!-- Team Section -->
+  <section class="team">
+    <h2>Our Team</h2>
+    <div class="team-container">
+      
+      <!-- Guidance -->
+      <div class="member">
+        <img src="assets\images\Scientist.jpg" alt="Dr. Gurveer Kaur">
+        <h3>Dr. Gurveer Kaur</h3>
+        <p>Scientist, Project Guide</p>
+        <a href="https://pau.edu/coaet/index.php?_act=manageDepartments&DO=viewFacultyData&intFacultyID=191&intDepTitleID=&intLinkID=3" target="_blank">
+          <i class="fas fa-external-link-alt"></i> Visit
+        </a>
+      </div>
+
+      <!-- Developer -->
+      <div class="member">
+        <img src="assets\images\gaautm.jpg" alt="Gautam Vashisht">
+        <h3>Gautam Vashisht</h3>
+        <p>Concept & Development, 4th Year B.Tech</p>
+        <a href="https://www.instagram.com/gautam_vashishth?igsh=MXh0c3Z6emZraG11cg==" target="_blank">
+          <i class="fas fa-external-link-alt"></i> Visit
+        </a>
+      </div>
+
+      <!-- Designer -->
+      <div class="member">
+        <img src="assets\images\Pushpa.jpeg" alt="Pushpraj Patel">
+        <h3>Pushpraj Patel</h3>
+        <p>Developer, 1st Year B.Tech</p>
+        <a href="https://farmfrontier.netlify.app/about/" target="_blank">
+          <i class="fas fa-external-link-alt"></i> Visit
+        </a>
+      </div>
+
+    </div>
+  </section>
+  <footer class="custom-footer">
+    <p>© 2025 developed by 
+      <a href="https://www.instagram.com/xpushpraj" target="_blank" class="footer-link">XPUSHPZ❤️</a> 
+      | All rights reserved
+    </p>
+  </footer>
+  
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
